@@ -1,12 +1,14 @@
 # TeamGQL
 
--  pip install django
--  pip install virtualenv
+-  Download and Install python 2.7 or 3.6 https://www.python.org/downloads/
+-  curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+-  sudo python get-pip.py
+-  pip install "graphene-django>=1.0"
+-  sudo pip install -U virtualenv
 -  cd to project directory
 -  virtualenv virtualEnvironmentName ... I chose suorgenv for my name
 -  source virtualEnvironmentName/bin/activate
--  virtualEnvironment is not active.
--  ./manage.py runserver will run the django test server
+-  python suorganzizer/manage.py runserver
 -  View in browser @ http://127.0.0.1:8000/
 
     There are many graphql libraries for python but this project will use a python graphene integration
